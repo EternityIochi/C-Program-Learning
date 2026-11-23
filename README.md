@@ -13,10 +13,10 @@ This is the title One
 This is the title two
 -------------------------
 
-1.2:Using # to mark
+1.2:Using \# to mark
 -----
 
-Markdown using # to generate title,this rule was come from HTML which using <h1>to<h2> to define title importance respectively.Then you can use the number of "#" to indicate the class of title from 1 to 6.Class 1 reponse to one #,Class 2 reponse to two #
+Markdown using \# to generate title,this rule was come from HTML which using <h1>to<h2> to define title importance respectively.Then you can use the number of "\#" to indicate the class of title from 1 to 6.Class 1 reponse to one \#,Class 2 reponse to two \#
 
 # 一级标题
 ## 二级标题
@@ -25,7 +25,7 @@ Markdown using # to generate title,this rule was come from HTML which using <h1>
 ##### 五级标题
 ###### 六级标题
 
-tips:It's neccessary to add # between symbols and character and it's the standrad grammer demand of Markdown
+tips:It's neccessary to add \# between symbols and character and it's the standrad grammer demand of Markdown
 
 # 正确写法
 #错误写法
