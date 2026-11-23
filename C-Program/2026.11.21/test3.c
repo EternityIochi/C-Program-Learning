@@ -1,0 +1,71 @@
+#include<stdio.h>
+void swap(int *, int *);
+// int main()
+// {
+//     int a = 1, b = 2;
+
+//     // int c = a + b;
+//     int c = add_1(b)
+
+//     printf("%d\n", c);
+// }
+
+// int test(void) {
+//     int a =2;
+// }
+// int add_1(int x) {
+//     int y = x+1;
+//     return y;       //变量值的传递//
+// }
+
+// int a = 10;
+// int* p = &a; //p本身也是一个变量，只不过它保存的是另一个变量的地址,"&a"表示a的地址
+//int*表示指向int类型对象的指针
+// int main()
+// {
+//     int a = 10;
+//     int* p = &a;
+//     int b = *p;
+//     printf("%d,%d,%d", a,*p,b);
+//     return 0;
+// }
+
+// int main()
+// {
+//     //int类型指针
+//     int x = 1;
+//     int* p = &x;
+
+//     //char类型指针
+//     char ch = 'A';
+//     char* q = &ch;
+    
+//     //double类型指针
+//     double y = 3.1415926;
+//     double* m = &y;
+    
+//     printf("%p\n", p);
+//     printf("%p\n", q);
+//     printf("%p\n", m);
+//     return 0;
+// }
+
+int main()
+{
+    // int a = 1, b = 2;
+    // int c = a;
+    // a = b;
+    // c = c;
+    // printf("%d, %d, %d", a, b, c);
+    // return 0;
+    int a = 1, b = 2;
+    int* x = &a, y = &b;
+    swap(a,b);
+    printf("%d,%d", a, b);
+}
+
+void swap(int* x, int* y){
+    int tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
