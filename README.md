@@ -16,7 +16,7 @@ This is the title two
 1.2:Using \# to mark
 -----
 
-Markdown using \# to generate title,this rule was come from HTML which using <#h1>to<#h2> to define title importance respectively.Then you can use the number of "\#" to indicate the class of title from 1 to 6.Class 1 reponse to one \#,Class 2 reponse to two \#
+Markdown using \# to generate title,this rule was come from HTML which using <\h1>to<\h2> to define title importance respectively.Then you can use the number of "\#" to indicate the class of title from 1 to 6.Class 1 reponse to one \#,Class 2 reponse to two \#
 
 # 一级标题
 ## 二级标题
