@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+#define M 100
+#define PI 3.1415926
 
-void main()
+// int main(){
+//     M = 100;
+//     printf("%d\n", M);
+//     printf("%f\n", PI);
+//     return 0;  
+// }
 
-{
-
-int a[6],i;
-
-for(i=1;i<6;i++)
-
-{ 
-
-a[i]=9*(i-2+4*(i>3))%5;
-
-  printf("%2d",a[i]);
-
-}
-
+int main(){
+    const int num = 10;
+    num = 20;
+    printf("%d\n", num);
+    
+    return 0;
 }
