@@ -6,7 +6,7 @@ Of course,you can also use a empty line to indicate a brand new paragraph.
 
 ## Font
 
-    Text emphasis is one of the most important techniques in Writing a Markdown text,so Markdown provided a concise method to achieve bold and italic effects.  
+Text emphasis is one of the most important techniques in Writing a Markdown text,so Markdown provided a concise method to achieve bold and italic effects.  
 ### Those text-font can be used in Markdown:  
 #### blod grammar:Using double ** or __ to surround the text:  
   这是**粗体文字**使用星号
@@ -40,11 +40,11 @@ GOOGLE.COM
 下划线可以通过HTML的<\u>标签来实现：
 <u>带下划线文本</u> [^RUNOOB]  
 以下示例演示了脚注的用法:  
-~~东雪莲~~[^東雪蓮]
-[^東雪蓮]: 罕见  
+~~東雪蓮~~[^1]
+[^1]: 罕见  
 
 ## 行内代码标记  
-    行内代码用于在正文中标记代码片段，命令，变量名等：  
+行内代码用于在正文中标记代码片段，命令，变量名等：  
 ### 基本语法：  
 使用一个包围代码:  
 使用 `git commit` 命令提交代码  
@@ -71,28 +71,28 @@ GOOGLE.COM
 
 ## 段落和换行  
 ### 段落创建方法  
-    在Markdown中,段落时文本的基本单位，理解段落规则对于正确格式化文档至关重要。  
+在Markdown中,段落时文本的基本单位，理解段落规则对于正确格式化文档至关重要。  
 #### 段落的基本规则；  
 1. 段落由一个或多个连续的文本组成  
 2. 段落之间由一个或多个空行分隔  
 3. 普通段落不应该用空格或制表符缩进  
 #### 普通的段落写法；  
-    段落一  
+段落一  
 
-    段落二  
+段落二  
 
-    段落三  
+段落三  
 
 #### 常见错误  
 第一段  
 第二段(错误：没有空行分隔)  
 
-    这是缩进段落（错误: 不应该缩进）  
+这是缩进段落（错误: 不应该缩进）  
 
 #### 强制换行技巧  
-    有时需要在不创新段落的情况下换行，Markdown提供了集中方法：  
+有时需要在不创新段落的情况下换行，Markdown提供了集中方法：  
 ##### 方法一：行尾加两个空格  
-    在行尾加两个或更多的空格，然后按回车；  
+在行尾加两个或更多的空格，然后按回车；  
 ##### 方法二： HTML换行标签  
   第一行<br>
   第二行
@@ -100,5 +100,5 @@ GOOGLE.COM
   第一行
   第二行  
 ##### 实例：  
-地址：~~北京市朝阳区~~[^北京市朝阳区]
-[^北京市朝阳区]: ** 哎呦喂，京爷给您👻了 **
+地址：~~北京市朝阳区~~[^2]
+[^2]: ** 哎呦喂，京爷给您👻了 **
