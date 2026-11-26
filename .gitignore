@@ -1,0 +1,15 @@
+gitignore
+
+# Visual Studio
+.vs/
+**/.vs/
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+
+#User settings
+*.user
+*.suo

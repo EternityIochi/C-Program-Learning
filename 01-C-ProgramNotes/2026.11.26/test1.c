@@ -41,4 +41,3 @@ int main()
     printf("列下标：%d\n", col);
 
     return 0;
-}
